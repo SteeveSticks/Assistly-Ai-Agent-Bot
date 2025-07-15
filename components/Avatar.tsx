@@ -18,8 +18,8 @@ const Avatar = ({ seed, className }: { seed: string; className?: string }) => {
     <Image
       src={dataUrl}
       alt="User Avavtar"
-      width={80}
-      height={80}
+      width={75}
+      height={75}
       className={className}
     />
   );
